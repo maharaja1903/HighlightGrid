@@ -53,7 +53,6 @@ public class HighlightGrid {
         int[][] g = new int[n][n];
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
-                // generate 1..10 then *2 -> yields 2,4,...,20
                 g[i][j] = (rnd.nextInt(10) + 1) * 2;
             }
         }
